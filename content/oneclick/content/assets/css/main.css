@@ -294,7 +294,7 @@ table .text-center th {
 
 .loading {
 	border-image: none;
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 11.5px 10px;
 	border-right: 2px solid rgba(0, 0, 0, 0);
 	border-color: rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.4);
 	border-style: solid;
@@ -3628,7 +3628,7 @@ body {
 }
 
 .panel-body {
-    padding: 10px 10px 5px 10px;
+    padding: 10px 10px 11.5px 10px;
 }
 
 .panel-title {

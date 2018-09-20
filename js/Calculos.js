@@ -3572,6 +3572,7 @@ function Procedimiento(){
 	document.getElementById("imp2").style.marginLeft="225px";
 	document.getElementById("imp1").style.marginTop="7px";
 	document.getElementById("imp1").style.float="right";
+	document.getElementById('imp2').style.display = 'none';
 
 	document.getElementById("salir").style.marginRight="12px";
 	document.getElementById("salir").style.marginTop="7px";
@@ -3610,16 +3611,9 @@ function Procedimiento(){
 	document.getElementById('anclaFuturo').style.display="inline-block";
 	document.getElementById('anclaSNestruc').style.display="inline-block";
 	document.getElementById('botonNDT').style.marginLeft = '150px';
-
-	//Botones Calcular de cada metodo
-		//Habilito
-		document.getElementById('btnCalcularNDT1').style.display = 'inline';
-		document.getElementById('botonFC1').style.display = 'inline';
-		document.getElementById('botonVR1').style.display = 'inline';
-		//DesHabilito
-		document.getElementById('btnCalcularNDT').style.display = 'none';
-		document.getElementById('botonFC').style.display = 'none';
-		document.getElementById('botonVR').style.display = 'none';
+	
+	document.getElementById('btnProce').style.display = 'none';
+	
 }
 
 function DatosDelProyecto(){
@@ -3740,7 +3734,8 @@ function VariablesDeEntrada(){
 		document.getElementById('botonFC').style.display = 'inline';
 		document.getElementById('botonVR').style.display = 'inline';
 
-
+		document.getElementById('imp2').style.display = 'block'
+		document.getElementById('btnProce').style.display = 'block';
 
 }
 function LimpiarCampoDef(){
